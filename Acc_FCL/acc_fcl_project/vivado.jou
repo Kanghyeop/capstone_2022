@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Aug 31 23:57:11 2022
+# Process ID: 9228
+# Current directory: C:/dev/capstone_2022/Acc_FCL/acc_fcl_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3060 C:\dev\capstone_2022\Acc_FCL\acc_fcl_project\acc_fcl_project.xpr
+# Log file: C:/dev/capstone_2022/Acc_FCL/acc_fcl_project/vivado.log
+# Journal file: C:/dev/capstone_2022/Acc_FCL/acc_fcl_project\vivado.jou
+# Running On: DESKTOP-UK50EEK, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 17103 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.xpr
+update_compile_order -fileset sources_1
+write_hw_platform -fixed -include_bit -force -file C:/dev/capstone_2022/Acc_FCL/acc_fcl_project/design_1_wrapper.xsa

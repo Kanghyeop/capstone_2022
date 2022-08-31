@@ -1,0 +1,336 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Aug 31 10:52:01 2022
+# Process ID: 10492
+# Current directory: C:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.runs/design_1_lab22_matbi_0_0_synth_1
+# Command line: vivado.exe -log design_1_lab22_matbi_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_lab22_matbi_0_0.tcl
+# Log file: C:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.runs/design_1_lab22_matbi_0_0_synth_1/design_1_lab22_matbi_0_0.vds
+# Journal file: C:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.runs/design_1_lab22_matbi_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-T288I0O, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 17103 MB
+#-----------------------------------------------------------
+source design_1_lab22_matbi_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/dev/capstone_2022/Acc_FCL/acc_fcl_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx_21.2/Vivado/2021.2/data/ip'.
+Command: synth_design -top design_1_lab22_matbi_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18868
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1384.766 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_lab22_matbi_0_0' [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ip/design_1_lab22_matbi_0_0/synth/design_1_lab22_matbi_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'lab22_matbi' [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/lab22_matbi.v:21]
+INFO: [Synth 8-6157] synthesizing module 'myip_v1_0' [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myip_v1_0_S00_AXI' [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-226] default block is never used [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0_S00_AXI.v:610]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0_S00_AXI.v:282]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg5_reg was removed.  [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0_S00_AXI.v:284]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg6_reg was removed.  [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0_S00_AXI.v:285]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg7_reg was removed.  [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0_S00_AXI.v:286]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg8_reg was removed.  [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0_S00_AXI.v:287]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg9_reg was removed.  [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0_S00_AXI.v:288]
+INFO: [Synth 8-6155] done synthesizing module 'myip_v1_0_S00_AXI' (1#1) [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'myip_v1_0' (2#1) [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/myip_v1_0.v:5]
+INFO: [Synth 8-6157] synthesizing module 'true_sync_dpbram' [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/true_sync_dpbram.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'true_sync_dpbram' (3#1) [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/true_sync_dpbram.v:21]
+INFO: [Synth 8-6157] synthesizing module 'data_mover_bram' [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/data_mover_bram.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/data_mover_bram.v:101]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/data_mover_bram.v:113]
+INFO: [Synth 8-6157] synthesizing module 'fully_connected_core' [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/fully_connected_core_timing_rev.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'fully_connected_core' (4#1) [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/fully_connected_core_timing_rev.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'data_mover_bram' (5#1) [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/data_mover_bram.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'lab22_matbi' (6#1) [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ipshared/86c5/lab22_matbi.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_lab22_matbi_0_0' (7#1) [c:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.gen/sources_1/bd/design_1/ip/design_1_lab22_matbi_0_0/synth/design_1_lab22_matbi_0_0.v:58]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module myip_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 1384.766 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1384.766 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1384.766 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1384.766 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1424.004 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 1424.004 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.004 ; gain = 39.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.004 ; gain = 39.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.004 ; gain = 39.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'c_state_read_reg' in module 'data_mover_bram'
+INFO: [Synth 8-802] inferred FSM for state register 'c_state_write_reg' in module 'data_mover_bram'
+INFO: [Synth 8-3971] The signal "true_sync_dpbram:/ram_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              001 |                               00
+                   S_RUN |                              010 |                               01
+                  S_DONE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'c_state_write_reg' using encoding 'one-hot' in module 'data_mover_bram'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                              001 |                               00
+                   S_RUN |                              010 |                               01
+                  S_DONE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'c_state_read_reg' using encoding 'one-hot' in module 'data_mover_bram'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1424.004 ; gain = 39.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 19    
+	               31 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 11    
++---RAMs : 
+	             128K Bit	(4096 X 32 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 9     
+	  16 Input   32 Bit        Muxes := 9     
+	   2 Input   31 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 19    
+	   3 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module myip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-6014] Unused sequential element inst/u_bram0/ram_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element inst/u_bram1/ram_reg was removed. 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 1424.004 ; gain = 39.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++-------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name              | RTL Object           | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|design_1_lab22_matbi_0_0 | inst/u_bram0/ram_reg | 4 K x 32(NO_CHANGE)    | W | R | 4 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 4      | 
+|design_1_lab22_matbi_0_0 | inst/u_bram1/ram_reg | 4 K x 32(NO_CHANGE)    | W | R | 4 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 4      | 
++-------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 1424.004 ; gain = 39.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 1424.004 ; gain = 39.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++-------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name              | RTL Object           | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|design_1_lab22_matbi_0_0 | inst/u_bram0/ram_reg | 4 K x 32(NO_CHANGE)    | W | R | 4 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 4      | 
+|design_1_lab22_matbi_0_0 | inst/u_bram1/ram_reg | 4 K x 32(NO_CHANGE)    | W | R | 4 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 4      | 
++-------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram0/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram0/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram0/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram0/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram0/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram0/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram0/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram0/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram1/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram1/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram1/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram1/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram1/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram1/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram1/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/u_bram1/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 1424.004 ; gain = 39.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1432.387 ; gain = 47.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1432.387 ; gain = 47.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1432.387 ; gain = 47.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1432.387 ; gain = 47.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1432.387 ; gain = 47.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1432.387 ; gain = 47.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   108|
+|2     |LUT1     |    31|
+|3     |LUT2     |    99|
+|4     |LUT3     |   342|
+|5     |LUT4     |   153|
+|6     |LUT5     |    45|
+|7     |LUT6     |   319|
+|8     |MUXF7    |    64|
+|9     |MUXF8    |    32|
+|10    |RAMB36E1 |     8|
+|11    |FDCE     |   318|
+|12    |FDPE     |     2|
+|13    |FDRE     |   343|
+|14    |FDSE     |     1|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1432.387 ; gain = 47.621
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:34 . Memory (MB): peak = 1432.387 ; gain = 8.383
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1432.387 ; gain = 47.621
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1444.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 212 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1450.125 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 14778745
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:42 . Memory (MB): peak = 1450.125 ; gain = 65.359
+INFO: [Common 17-1381] The checkpoint 'C:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.runs/design_1_lab22_matbi_0_0_synth_1/design_1_lab22_matbi_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_lab22_matbi_0_0, cache-ID = 25e69f97b88991db
+INFO: [Coretcl 2-1174] Renamed 10 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/dev/capstone_2022/Acc_FCL/acc_fcl_project/acc_fcl_project.runs/design_1_lab22_matbi_0_0_synth_1/design_1_lab22_matbi_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_lab22_matbi_0_0_utilization_synth.rpt -pb design_1_lab22_matbi_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 31 10:52:56 2022...
