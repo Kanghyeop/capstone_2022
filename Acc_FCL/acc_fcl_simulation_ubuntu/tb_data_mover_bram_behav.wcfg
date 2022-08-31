@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_data_mover_bram_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_data_mover_bram" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,283.001 ns"></ZoomEndTime>
+      <Cursor1Time time="105.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="53" />
+   <wvobject type="divider" fp_name="divider60">
+      <obj_property name="label">FC Core</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/i_run" type="logic">
+      <obj_property name="ElementShortName">i_run</obj_property>
+      <obj_property name="ObjectShortName">i_run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/i_valid" type="logic">
+      <obj_property name="ElementShortName">i_valid</obj_property>
+      <obj_property name="ObjectShortName">i_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/i_node" type="array">
+      <obj_property name="ElementShortName">i_node[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_node[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/i_wegt" type="array">
+      <obj_property name="ElementShortName">i_wegt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_wegt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/o_valid" type="logic">
+      <obj_property name="ElementShortName">o_valid</obj_property>
+      <obj_property name="ObjectShortName">o_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/o_result" type="array">
+      <obj_property name="ElementShortName">o_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/r_valid" type="logic">
+      <obj_property name="ElementShortName">r_valid</obj_property>
+      <obj_property name="ObjectShortName">r_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/u_data_mover_bram/u_fully_connected_core_8b_0/r_result" type="array">
+      <obj_property name="ElementShortName">r_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider61">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/i_run" type="logic">
+      <obj_property name="ElementShortName">i_run</obj_property>
+      <obj_property name="ObjectShortName">i_run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/i_num_cnt" type="array">
+      <obj_property name="ElementShortName">i_num_cnt[30:0]</obj_property>
+      <obj_property name="ObjectShortName">i_num_cnt[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/o_idle" type="logic">
+      <obj_property name="ElementShortName">o_idle</obj_property>
+      <obj_property name="ObjectShortName">o_idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/o_write" type="logic">
+      <obj_property name="ElementShortName">o_write</obj_property>
+      <obj_property name="ObjectShortName">o_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/o_read" type="logic">
+      <obj_property name="ElementShortName">o_read</obj_property>
+      <obj_property name="ObjectShortName">o_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/o_done" type="logic">
+      <obj_property name="ElementShortName">o_done</obj_property>
+      <obj_property name="ObjectShortName">o_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/addr0_b0" type="array">
+      <obj_property name="ElementShortName">addr0_b0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr0_b0[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/ce0_b0" type="logic">
+      <obj_property name="ElementShortName">ce0_b0</obj_property>
+      <obj_property name="ObjectShortName">ce0_b0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/we0_b0" type="logic">
+      <obj_property name="ElementShortName">we0_b0</obj_property>
+      <obj_property name="ObjectShortName">we0_b0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/q0_b0" type="array">
+      <obj_property name="ElementShortName">q0_b0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q0_b0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/d0_b0" type="array">
+      <obj_property name="ElementShortName">d0_b0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d0_b0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/addr0_b1" type="array">
+      <obj_property name="ElementShortName">addr0_b1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr0_b1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/ce0_b1" type="logic">
+      <obj_property name="ElementShortName">ce0_b1</obj_property>
+      <obj_property name="ObjectShortName">ce0_b1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/we0_b1" type="logic">
+      <obj_property name="ElementShortName">we0_b1</obj_property>
+      <obj_property name="ObjectShortName">we0_b1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/q0_b1" type="array">
+      <obj_property name="ElementShortName">q0_b1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q0_b1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/d0_b1" type="array">
+      <obj_property name="ElementShortName">d0_b1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d0_b1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/addr1_b0" type="array">
+      <obj_property name="ElementShortName">addr1_b0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr1_b0[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/ce1_b0" type="logic">
+      <obj_property name="ElementShortName">ce1_b0</obj_property>
+      <obj_property name="ObjectShortName">ce1_b0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/we1_b0" type="logic">
+      <obj_property name="ElementShortName">we1_b0</obj_property>
+      <obj_property name="ObjectShortName">we1_b0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/q1_b0" type="array">
+      <obj_property name="ElementShortName">q1_b0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q1_b0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/d1_b0" type="array">
+      <obj_property name="ElementShortName">d1_b0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d1_b0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/a_0" type="array">
+      <obj_property name="ElementShortName">a_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/a_1" type="array">
+      <obj_property name="ElementShortName">a_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/a_2" type="array">
+      <obj_property name="ElementShortName">a_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/a_3" type="array">
+      <obj_property name="ElementShortName">a_3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/addr1_b1" type="array">
+      <obj_property name="ElementShortName">addr1_b1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr1_b1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/ce1_b1" type="logic">
+      <obj_property name="ElementShortName">ce1_b1</obj_property>
+      <obj_property name="ObjectShortName">ce1_b1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/we1_b1" type="logic">
+      <obj_property name="ElementShortName">we1_b1</obj_property>
+      <obj_property name="ObjectShortName">we1_b1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/q1_b1" type="array">
+      <obj_property name="ElementShortName">q1_b1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q1_b1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/d1_b1" type="array">
+      <obj_property name="ElementShortName">d1_b1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d1_b1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/result_0" type="array">
+      <obj_property name="ElementShortName">result_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/result_1" type="array">
+      <obj_property name="ElementShortName">result_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/result_2" type="array">
+      <obj_property name="ElementShortName">result_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/result_3" type="array">
+      <obj_property name="ElementShortName">result_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/f_in_node" type="array">
+      <obj_property name="ElementShortName">f_in_node[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f_in_node[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/f_in_wegt" type="array">
+      <obj_property name="ElementShortName">f_in_wegt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f_in_wegt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/f_ot" type="array">
+      <obj_property name="ElementShortName">f_ot[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f_ot[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mover_bram/status" type="array">
+      <obj_property name="ElementShortName">status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status[31:0]</obj_property>
+   </wvobject>
+</wave_config>
